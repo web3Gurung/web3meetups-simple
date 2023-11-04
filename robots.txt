@@ -1,0 +1,1 @@
+User-agent: *allow: /Sitemap: https://web3meetups.xyz/sitemaps.xml
