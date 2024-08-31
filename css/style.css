@@ -224,25 +224,6 @@ img {
     border: 0;
 }
 
-@media (max-width: 600px) {
-    .iframe-container {
-        overflow: hidden;
-        padding-top: 200%;
-        position: relative;
-        margin-left: 1.5%;
-        margin-right: 1.5%;
-    }
-
-    .iframe-container iframe {
-        border: 0;
-        height: 100%;
-        left: 0;
-        position: absolute;
-        top: 0;
-        width: 100%;
-    }
-}
-
 .nav {
     background-color: #fff;
     overflow: hidden;
@@ -285,4 +266,33 @@ img {
     margin-right: 5px;
     margin-left: 0px;
     padding: 0px;
+}
+
+
+@media (max-width: 600px) {
+    .iframe-container {
+        overflow: hidden;
+        padding-top: 200%;
+        position: relative;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+    }
+
+    .iframe-container iframe {
+        border: 0;
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .inline-logo {
+        justify-self: self-start;
+        width: 20%;
+        height: 20%;
+        margin-right: 5px;
+        margin-left: 0px;
+        padding: 0px;
+    }
 }
