@@ -1,3 +1,4 @@
 *.min.*
 .DS_Store
 add_meetups.md
+scraper.py
