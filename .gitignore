@@ -1,6 +1,35 @@
 *.min.*
 .DS_Store
-add_meetups.md
-scraper.py
-update_procedure.prompt.md
 
+# Archive - detailed documentation (internal only)
+docs-archive/
+
+# Automation scripts (hide implementation from competitors)
+scraper.py
+setup_automation.sh
+
+# Tweet bot automation (hide workflow details)
+tweet-bot/extract_events.py
+tweet-bot/sync_and_post.sh
+tweet-bot/post_thread.py
+tweet-bot/generate_image.py
+tweet-bot/config.json
+tweet-bot/events.json
+tweet-bot/output/
+tweet-bot/__pycache__/
+
+# Keep these public in tweet-bot:
+# - README.md (simplified docs)
+# - requirements.txt (dependencies)
+# - web3meetups-logo.svg (brand asset)
+
+# Temporary and test files
+add_meetups.md
+update_procedure.prompt.md
+*_temp.py
+*_test.py
+shorten_*.py
+
+# Node modules (if using prettier locally)
+node_modules/
+package-lock.json
