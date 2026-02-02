@@ -33,3 +33,7 @@ shorten_*.py
 # Node modules (if using prettier locally)
 node_modules/
 package-lock.json
+
+
+.agents/
+.claude/
