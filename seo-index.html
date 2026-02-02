@@ -542,31 +542,30 @@
       margin-bottom: 0;
     }
 
-    /* Internal navigation styling */
-    .internal-nav {
+    /* Footer navigation styling */
+    .footer-nav {
       display: flex;
-      gap: 1.5rem;
-      margin-top: 1.5rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--ed-light-gray);
+      gap: 1rem;
       flex-wrap: wrap;
+      justify-content: center;
+      margin-bottom: 1rem;
+      align-items: center;
     }
 
-    .nav-link {
-      font-size: 0.875rem;
+    .footer-link {
+      font-size: 0.8125rem;
       color: var(--ed-gray);
       text-decoration: none;
       transition: color 0.2s ease;
     }
 
-    .nav-link:hover {
+    .footer-link:hover {
       color: var(--ed-accent);
     }
 
-    @media (max-width: 640px) {
-      .internal-nav {
-        gap: 1rem;
-      }
+    .footer-separator {
+      color: var(--ed-light-gray);
+      font-size: 0.8125rem;
     }
   </style>
 </head>
@@ -599,14 +598,6 @@
               <img src="images/buymeacoffee-logo.svg" alt="Buy Me a Coffee" class="social-icon-img">
             </a>
           </div>
-
-          <!-- Internal Navigation -->
-          <nav class="internal-nav">
-            <a href="about.html" class="nav-link">About</a>
-            <a href="supporters.html" class="nav-link">Supporters</a>
-            <a href="form.html" class="nav-link">Submit Event</a>
-            <a href="notes.html" class="nav-link">Notes</a>
-          </nav>
 
           <!-- City Filter Navigation -->
           <nav class="navigation">
@@ -1117,6 +1108,14 @@
 
         <!-- Footer -->
         <footer class="colophon">
+          <nav class="footer-nav">
+            <a href="about.html" class="footer-link">About</a>
+            <a href="supporters.html" class="footer-link">Supporters</a>
+            <a href="notes.html" class="footer-link">Notes</a>
+            <span class="footer-separator">•</span>
+            <a href="group.html" class="footer-link">WhatsApp Group</a>
+            <a href="form.html" class="footer-link">Submit Event</a>
+          </nav>
           <p class="footer-credit">web3meetups.xyz</p>
         </footer>
       </div>
