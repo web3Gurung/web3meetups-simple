@@ -263,6 +263,10 @@ header {
   letter-spacing: -0.02em;
 }
 
+.date-number.date-range {
+  letter-spacing: -0.03em;
+}
+
 .date-month {
   font-size: 0.875rem;
   text-transform: uppercase;
@@ -422,7 +426,7 @@ header {
   }
 
   .logo-section {
-    text-align: center;
+    align-items: center;
     width: 100%;
   }
 
@@ -430,12 +434,20 @@ header {
     margin: 0 auto;
   }
 
+  .tagline {
+    text-align: center;
+  }
+
   .header-social {
     justify-content: center;
   }
 
   .action-button {
-    width: 100%;
+    width: auto;
+    max-width: 240px;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
   }
 
   .calendar-section {
