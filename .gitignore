@@ -33,3 +33,6 @@ package-lock.json
 
 .agents/
 web3meetups-zo/
+remove_old_events.py
+add_event.py
+CLAUDE.md
