@@ -38,3 +38,5 @@ add_event.py
 CLAUDE.md
 
 FAQ_IMPLEMENTATION_GUIDE.md
+*.backup
+update_timestamp.py
