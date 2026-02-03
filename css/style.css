@@ -61,8 +61,8 @@ body {
 /* Header */
 header {
   border-bottom: 1px solid var(--ed-light-gray);
-  padding-bottom: 3rem;
-  margin-bottom: 4rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0.75rem;
 }
 
 .masthead {
@@ -415,8 +415,8 @@ header {
   }
 
   header {
-    padding-bottom: 2rem;
-    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.75rem;
   }
 
   .masthead {
@@ -448,6 +448,11 @@ header {
     margin: 0 auto;
     display: block;
     text-align: center;
+  }
+
+  .intro-section {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
   }
 
   .calendar-section {
@@ -487,6 +492,16 @@ header {
 }
 
 @media (max-width: 640px) {
+  header {
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .intro-section {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem 0;
+  }
+
   .section-header {
     flex-direction: column;
     align-items: flex-start;
@@ -532,4 +547,57 @@ header {
     align-items: flex-start;
     gap: 0.5rem;
   }
+}
+
+/* Hidden H1 for SEO and accessibility */
+.seo-h1 {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Intro section styling */
+.intro-section {
+  margin-bottom: 2rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--ed-light-gray);
+}
+
+.intro-section p {
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--ed-charcoal);
+  margin-bottom: 1rem;
+}
+
+.intro-section p:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer navigation styling */
+.footer-nav {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.footer-link {
+  font-size: 0.8125rem;
+  color: var(--ed-gray);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer-link:hover {
+  color: var(--ed-accent);
+}
+
+.footer-separator {
+  color: var(--ed-light-gray);
+  font-size: 0.8125rem;
 }
