@@ -20,7 +20,10 @@
 }
 
 body {
-  font-family: 'Instrument Sans', -apple-system, sans-serif;
+  font-family:
+    "Instrument Sans",
+    -apple-system,
+    sans-serif;
   background-color: var(--ed-cream);
   color: var(--ed-charcoal);
   -webkit-font-smoothing: antialiased;
@@ -104,7 +107,7 @@ header {
 }
 
 .action-button {
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   font-size: 0.9375rem;
   font-weight: 600;
   color: var(--ed-white);
@@ -176,7 +179,7 @@ header {
 }
 
 .city-filter {
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   font-size: 1rem;
   font-weight: 500;
   color: var(--ed-gray);
@@ -212,10 +215,18 @@ header {
 }
 
 /* Only apply staggered delays on initial page load */
-.calendar-section:nth-child(1) { animation-delay: 0.5s; }
-.calendar-section:nth-child(2) { animation-delay: 0.6s; }
-.calendar-section:nth-child(3) { animation-delay: 0.7s; }
-.calendar-section:nth-child(4) { animation-delay: 0.8s; }
+.calendar-section:nth-child(1) {
+  animation-delay: 0.25s;
+}
+.calendar-section:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.calendar-section:nth-child(3) {
+  animation-delay: 0.35s;
+}
+.calendar-section:nth-child(4) {
+  animation-delay: 0.4s;
+}
 
 /* After initial load, remove animation delays for instant filtering */
 .calendar-section.loaded {
@@ -255,7 +266,7 @@ header {
 }
 
 .date-number {
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   font-size: 3rem;
   font-weight: 700;
   line-height: 1;
@@ -277,7 +288,7 @@ header {
 }
 
 .day-name {
-  font-family: 'Newsreader', Georgia, serif;
+  font-family: "Newsreader", Georgia, serif;
   font-size: 1.5rem;
   font-weight: 400;
   font-style: italic;
@@ -301,7 +312,7 @@ header {
 }
 
 .event::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 120px;
   bottom: -1.25rem;
@@ -348,7 +359,7 @@ header {
 }
 
 .event-name {
-  font-family: 'Instrument Sans', sans-serif;
+  font-family: "Instrument Sans", sans-serif;
   font-size: 1.75rem;
   font-weight: 600;
   line-height: 1.3;
@@ -386,7 +397,7 @@ header {
 }
 
 .event-venue::before {
-  content: '●';
+  content: "●";
   margin-right: 0.5rem;
   color: var(--ed-accent);
 }
