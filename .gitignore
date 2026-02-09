@@ -41,3 +41,4 @@ FAQ_IMPLEMENTATION_GUIDE.md
 *.backup
 update_timestamp.py
 __pycache__/
+sort_events.py
