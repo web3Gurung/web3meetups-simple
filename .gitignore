@@ -42,3 +42,5 @@ FAQ_IMPLEMENTATION_GUIDE.md
 update_timestamp.py
 __pycache__/
 sort_events.py
+
+update_structured_data.py
