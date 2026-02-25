@@ -30,6 +30,9 @@ shorten_*.py
 node_modules/
 package-lock.json
 
+# Local Python virtual environment (Zo / CI)
+.venv/
+
 
 .agents/
 web3meetups-zo/
